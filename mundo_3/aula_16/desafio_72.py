@@ -11,6 +11,7 @@ extensos = (
     "nove", "dez", "onze", "doze", "treze", "catorze", "quinze",
     "dezesseis", "dezessete", "dezoito", "dezenove", "vinte"
     )
+n=0 #quando digitarmos zero
 while True:
     n = int(input("Digite um número de 0 a 20: \n"))
     if n >= 0 and n <= 20:
